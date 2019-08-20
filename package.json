@@ -1,0 +1,45 @@
+{
+  "name": "react-tailwind-lib",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "lint": "tslint ./src/index.ts",
+    "build": "tsc",
+    "prepare": "npm run build",
+    "preversion": "npm run lint"
+  },
+  "keywords": [
+    "react",
+    "tailwind",
+    "component",
+    "css"
+  ],
+  "author": "Lindsay Wardell",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lindsaykwardell/react-tailwind-lib.git"
+  },
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-icons": "^3.7.0",
+    "use-debounce": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.10.3",
+    "@types/jest": "^24.0.18",
+    "@types/react": "^16.9.2",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.3"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
